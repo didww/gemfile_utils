@@ -1,6 +1,10 @@
 # GemfileUtils
 
+[![Build Status](https://api.travis-ci.org/Fivell/gemfile_utils.svg)](https://travis-ci.org/Fivell/gemfile_utils)
+
 gemfile_utils provides command line interface to modify Gemfile with annotations and comments
+
+
 
 ```
 gemfile_utils help comments
