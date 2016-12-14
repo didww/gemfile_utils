@@ -1,0 +1,1925 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/nokogiri
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4fa016ff-fb02-4f84-9ff6-77cb6b816bf5
+      X-Runtime:
+      - '0.018024'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1232-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.178531,VS0,VE183
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"339a3eee4df508aa4590cedfda2f5bfe\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJuYW1lIjoibm9rb2dpcmkiLCJkb3dubG9hZHMiOjk0NTAwMTkyLCJ2ZXJz
+        aW9uIjoiMS42LjguMSIsInZlcnNpb25fZG93bmxvYWRzIjoyNzYxMjYxLCJw
+        bGF0Zm9ybSI6InJ1YnkiLCJhdXRob3JzIjoiQWFyb24gUGF0dGVyc29uLCBN
+        aWtlIERhbGVzc2lvLCBZb2tvIEhhcmFkYSwgVGltIEVsbGlvdHQsIEFraW5v
+        cmkgTVVTSEEiLCJpbmZvIjoiTm9rb2dpcmkgKOmLuCkgaXMgYW4gSFRNTCwg
+        WE1MLCBTQVgsIGFuZCBSZWFkZXIgcGFyc2VyLiAgQW1vbmdcbk5va29naXJp
+        J3MgbWFueSBmZWF0dXJlcyBpcyB0aGUgYWJpbGl0eSB0byBzZWFyY2ggZG9j
+        dW1lbnRzIHZpYSBYUGF0aFxub3IgQ1NTMyBzZWxlY3RvcnMuIiwibGljZW5z
+        ZXMiOlsiTUlUIl0sIm1ldGFkYXRhIjp7fSwic2hhIjoiOTI4MTRhN2ZmNjcy
+        ZTQyYjYwZmQ1YzAyZDc1YjYyYWI4ZmQyZGYzYWZiYWMyNzljYzhkYWRhYzNj
+        MTZiYmQxMCIsInByb2plY3RfdXJpIjoiaHR0cHM6Ly9ydWJ5Z2Vtcy5vcmcv
+        Z2Vtcy9ub2tvZ2lyaSIsImdlbV91cmkiOiJodHRwczovL3J1YnlnZW1zLm9y
+        Zy9nZW1zL25va29naXJpLTEuNi44LjEuZ2VtIiwiaG9tZXBhZ2VfdXJpIjoi
+        aHR0cDovL25va29naXJpLm9yZyIsIndpa2lfdXJpIjoiIiwiZG9jdW1lbnRh
+        dGlvbl91cmkiOiJodHRwOi8vbm9rb2dpcmkub3JnIiwibWFpbGluZ19saXN0
+        X3VyaSI6Imh0dHA6Ly9ncm91cHMuZ29vZ2xlLmNvbS9ncm91cC9ub2tvZ2ly
+        aS10YWxrIiwic291cmNlX2NvZGVfdXJpIjoiaHR0cHM6Ly9naXRodWIuY29t
+        L3NwYXJrbGVtb3Rpb24vbm9rb2dpcmkiLCJidWdfdHJhY2tlcl91cmkiOiJo
+        dHRwczovL2dpdGh1Yi5jb20vc3BhcmtsZW1vdGlvbi9ub2tvZ2lyaS9pc3N1
+        ZXMiLCJkZXBlbmRlbmNpZXMiOnsiZGV2ZWxvcG1lbnQiOlt7Im5hbWUiOiJo
+        b2UiLCJyZXF1aXJlbWVudHMiOiJ+XHUwMDNlIDMuMTUifSx7Im5hbWUiOiJo
+        b2UtYnVuZGxlciIsInJlcXVpcmVtZW50cyI6In5cdTAwM2UgMS4yLjAifSx7
+        Im5hbWUiOiJob2UtZGVidWdnaW5nIiwicmVxdWlyZW1lbnRzIjoiflx1MDAz
+        ZSAxLjIuMSJ9LHsibmFtZSI6ImhvZS1nZW1zcGVjIiwicmVxdWlyZW1lbnRz
+        Ijoiflx1MDAzZSAxLjAuMCJ9LHsibmFtZSI6ImhvZS1naXQiLCJyZXF1aXJl
+        bWVudHMiOiJ+XHUwMDNlIDEuNi4wIn0seyJuYW1lIjoibWluaXRlc3QiLCJy
+        ZXF1aXJlbWVudHMiOiJ+XHUwMDNlIDUuOC40In0seyJuYW1lIjoicmFjYyIs
+        InJlcXVpcmVtZW50cyI6In5cdTAwM2UgMS40LjE0In0seyJuYW1lIjoicmFr
+        ZSIsInJlcXVpcmVtZW50cyI6In5cdTAwM2UgMTAuNS4wIn0seyJuYW1lIjoi
+        cmFrZS1jb21waWxlciIsInJlcXVpcmVtZW50cyI6In5cdTAwM2UgMC45LjIi
+        fSx7Im5hbWUiOiJyYWtlLWNvbXBpbGVyLWRvY2siLCJyZXF1aXJlbWVudHMi
+        OiJ+XHUwMDNlIDAuNS4xIn0seyJuYW1lIjoicmRvYyIsInJlcXVpcmVtZW50
+        cyI6In5cdTAwM2UgNC4wIn0seyJuYW1lIjoicmV4aWNhbCIsInJlcXVpcmVt
+        ZW50cyI6In5cdTAwM2UgMS4wLjUifV0sInJ1bnRpbWUiOlt7Im5hbWUiOiJt
+        aW5pX3BvcnRpbGUyIiwicmVxdWlyZW1lbnRzIjoiflx1MDAzZSAyLjEuMCJ9
+        XX19
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/ransack
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e0c2a8d1-a1f2-494e-a779-cfa1c35dde0d
+      X-Runtime:
+      - '0.016687'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1242-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.175007,VS0,VE290
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"680c099e9917b7484736c4c6164828fb\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"ransack\",\"downloads\":4312517,\"version\":\"1.8.2\",\"version_downloads\":261568,\"platform\":\"ruby\",\"authors\":\"Ernie
+        Miller, Ryan Bigg, Jon Atack\",\"info\":\"Ransack is the successor to the
+        MetaSearch gem. It improves and expands upon MetaSearch's functionality, but
+        does not have a 100%-compatible API.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"4c766e3cda7f4c982ec48032bc9db744edba0e1a744e365946124afe3c1fca33\",\"project_uri\":\"https://rubygems.org/gems/ransack\",\"gem_uri\":\"https://rubygems.org/gems/ransack-1.8.2.gem\",\"homepage_uri\":\"https://github.com/activerecord-hackery/ransack\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/ransack/1.8.2\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"faker\",\"requirements\":\"~\\u003e
+        0.9.5\"},{\"name\":\"machinist\",\"requirements\":\"~\\u003e 1.0.6\"},{\"name\":\"mysql2\",\"requirements\":\"=
+        0.3.20\"},{\"name\":\"pg\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"pry\",\"requirements\":\"=
+        0.10\"},{\"name\":\"rspec\",\"requirements\":\"~\\u003e 3\"},{\"name\":\"sqlite3\",\"requirements\":\"~\\u003e
+        1.3.3\"}],\"runtime\":[{\"name\":\"actionpack\",\"requirements\":\"\\u003e=
+        3.0\"},{\"name\":\"activerecord\",\"requirements\":\"\\u003e= 3.0\"},{\"name\":\"activesupport\",\"requirements\":\"\\u003e=
+        3.0\"},{\"name\":\"i18n\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"polyamorous\",\"requirements\":\"~\\u003e
+        1.3\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/devise
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e2474f05-7032-49b8-8cee-2366893aab9a
+      X-Runtime:
+      - '0.015429'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1238-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.174495,VS0,VE394
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"ec622f9828f787f6aba270ad419485e8\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJuYW1lIjoiZGV2aXNlIiwiZG93bmxvYWRzIjoyMDc4NjAzNSwidmVyc2lv
+        biI6IjQuMi4wIiwidmVyc2lvbl9kb3dubG9hZHMiOjEwMDczNTksInBsYXRm
+        b3JtIjoicnVieSIsImF1dGhvcnMiOiJKb3PDqSBWYWxpbSwgQ2FybG9zIEFu
+        dMO0bmlvIiwiaW5mbyI6IkZsZXhpYmxlIGF1dGhlbnRpY2F0aW9uIHNvbHV0
+        aW9uIGZvciBSYWlscyB3aXRoIFdhcmRlbiIsImxpY2Vuc2VzIjpbIk1JVCJd
+        LCJtZXRhZGF0YSI6e30sInNoYSI6ImUwYjZhMzgyODM2OGUyYjk3OTYzNjEz
+        OTVlOTBjNDhiZjkyZmY4NTk1MDJlYzlkMWE4NmMzZTgzYzJlMGI4MTAiLCJw
+        cm9qZWN0X3VyaSI6Imh0dHBzOi8vcnVieWdlbXMub3JnL2dlbXMvZGV2aXNl
+        IiwiZ2VtX3VyaSI6Imh0dHBzOi8vcnVieWdlbXMub3JnL2dlbXMvZGV2aXNl
+        LTQuMi4wLmdlbSIsImhvbWVwYWdlX3VyaSI6Imh0dHBzOi8vZ2l0aHViLmNv
+        bS9wbGF0YWZvcm1hdGVjL2RldmlzZSIsIndpa2lfdXJpIjoiIiwiZG9jdW1l
+        bnRhdGlvbl91cmkiOiJodHRwOi8vZ2l0aHViLmNvbS9wbGF0YWZvcm1hdGVj
+        L2RldmlzZSIsIm1haWxpbmdfbGlzdF91cmkiOiJodHRwOi8vZ3JvdXBzLmdv
+        b2dsZS5jb20vZ3JvdXAvcGxhdGFmb3JtYXRlYy1kZXZpc2UiLCJzb3VyY2Vf
+        Y29kZV91cmkiOiJodHRwOi8vZ2l0aHViLmNvbS9wbGF0YWZvcm1hdGVjL2Rl
+        dmlzZSIsImJ1Z190cmFja2VyX3VyaSI6IiIsImRlcGVuZGVuY2llcyI6eyJk
+        ZXZlbG9wbWVudCI6W10sInJ1bnRpbWUiOlt7Im5hbWUiOiJiY3J5cHQiLCJy
+        ZXF1aXJlbWVudHMiOiJ+XHUwMDNlIDMuMCJ9LHsibmFtZSI6Im9ybV9hZGFw
+        dGVyIiwicmVxdWlyZW1lbnRzIjoiflx1MDAzZSAwLjEifSx7Im5hbWUiOiJy
+        YWlsdGllcyIsInJlcXVpcmVtZW50cyI6Ilx1MDAzYyA1LjEsIFx1MDAzZT0g
+        NC4xLjAifSx7Im5hbWUiOiJyZXNwb25kZXJzIiwicmVxdWlyZW1lbnRzIjoi
+        XHUwMDNlPSAwIn0seyJuYW1lIjoid2FyZGVuIiwicmVxdWlyZW1lbnRzIjoi
+        flx1MDAzZSAxLjIuMyJ9XX19
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/rake
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7ce9cb8c-f3a0-41fa-a5db-b04b855f7508
+      X-Runtime:
+      - '0.011278'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1229-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.178358,VS0,VE479
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"cc3217a6a0aa9983e66b3c3f7ed40abf\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"rake\",\"downloads\":130101323,\"version\":\"12.0.0\",\"version_downloads\":324046,\"platform\":\"ruby\",\"authors\":\"Hiroshi
+        SHIBATA, Eric Hodel, Jim Weirich\",\"info\":\"Rake is a Make-like program
+        implemented in Ruby. Tasks and dependencies are\\nspecified in standard Ruby
+        syntax.\\nRake has the following features:\\n  * Rakefiles (rake's version
+        of Makefiles) are completely defined in standard Ruby syntax.\\n    No XML
+        files to edit. No quirky Makefile syntax to worry about (is that a tab or
+        a space?)\\n  * Users can specify tasks with prerequisites.\\n  * Rake supports
+        rule patterns to synthesize implicit tasks.\\n  * Flexible FileLists that
+        act like arrays but know about manipulating file names and paths.\\n  * Supports
+        parallel execution of tasks.\\n\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"f6b43059e2923ddd30128fbbf4eb2e610c020b888ad97b57d7d94abc12734806\",\"project_uri\":\"https://rubygems.org/gems/rake\",\"gem_uri\":\"https://rubygems.org/gems/rake-12.0.0.gem\",\"homepage_uri\":\"https://github.com/ruby/rake\",\"wiki_uri\":\"\",\"documentation_uri\":\"http://docs.seattlerb.org/rake\",\"mailing_list_uri\":\"\",\"source_code_uri\":\"https://github.com/ruby/rake\",\"bug_tracker_uri\":\"https://github.com/ruby/rake/issues\",\"dependencies\":{\"development\":[{\"name\":\"bundler\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"minitest\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"rdoc\",\"requirements\":\"\\u003e=
+        0\"}],\"runtime\":[]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/binding_of_caller
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 74e04388-a48f-4aac-b27e-ccc0596284ef
+      X-Runtime:
+      - '0.011198'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1233-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.194319,VS0,VE564
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"cb008d662750c2b874df49a4e830db84\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"binding_of_caller\",\"downloads\":12252390,\"version\":\"0.7.2\",\"version_downloads\":10948022,\"platform\":\"ruby\",\"authors\":\"John
+        Mair (banisterfiend)\",\"info\":\"Retrieve the binding of a method's caller.
+        Can also retrieve bindings even further up the stack.\",\"licenses\":[],\"metadata\":{},\"sha\":\"d327682ce1d8e8cc46e282a46052946af0de16bef734014c63df0aac66334f96\",\"project_uri\":\"https://rubygems.org/gems/binding_of_caller\",\"gem_uri\":\"https://rubygems.org/gems/binding_of_caller-0.7.2.gem\",\"homepage_uri\":\"http://github.com/banister/binding_of_caller\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/binding_of_caller/0.7.2\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"bacon\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"rake\",\"requirements\":\"\\u003e= 0\"}],\"runtime\":[{\"name\":\"debug_inspector\",\"requirements\":\"\\u003e=
+        0.0.1\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/better_errors
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e8ecb127-60c6-4ac7-afa2-0170542b3565
+      X-Runtime:
+      - '0.014124'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1248-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.196980,VS0,VE665
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"8213bbff80087119acc667acc37ad7da\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"better_errors\",\"downloads\":8037649,\"version\":\"2.1.1\",\"version_downloads\":3120725,\"platform\":\"ruby\",\"authors\":\"Charlie
+        Somerville\",\"info\":\"Provides a better error page for Rails and other Rack
+        apps. Includes source code inspection, a live REPL and local/instance variable
+        inspection for all stack frames.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"acb3d6bcdadb511dc9360b652809a7cbd889a864c0cfd9c0dd5846e803999a85\",\"project_uri\":\"https://rubygems.org/gems/better_errors\",\"gem_uri\":\"https://rubygems.org/gems/better_errors-2.1.1.gem\",\"homepage_uri\":\"https://github.com/charliesome/better_errors\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/better_errors/2.1.1\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[],\"runtime\":[{\"name\":\"coderay\",\"requirements\":\"\\u003e=
+        1.0.0\"},{\"name\":\"erubis\",\"requirements\":\"\\u003e= 2.6.6\"},{\"name\":\"rack\",\"requirements\":\"\\u003e=
+        0.9.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/capybara
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 82be2a20-e031-4bf3-9056-d73f4130f4f3
+      X-Runtime:
+      - '0.012694'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:26 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1251-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.194770,VS0,VE768
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"56d582c81f73e4bd9ed3ab93deeec238\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"capybara\",\"downloads\":22185347,\"version\":\"2.11.0\",\"version_downloads\":42113,\"platform\":\"ruby\",\"authors\":\"Thomas
+        Walpole, Jonas Nicklas\",\"info\":\"Capybara is an integration testing tool
+        for rack based web applications. It simulates how a user would interact with
+        a website\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"fb097436b4f3a0610026c0757ef1531edad5f0f0836f49d3c4f53541058f50c5\",\"project_uri\":\"https://rubygems.org/gems/capybara\",\"gem_uri\":\"https://rubygems.org/gems/capybara-2.11.0.gem\",\"homepage_uri\":\"https://github.com/teamcapybara/capybara\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/capybara/2.11.0\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"cucumber\",\"requirements\":\"\\u003e=
+        0.10.5\"},{\"name\":\"erubis\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"fuubar\",\"requirements\":\"\\u003e=
+        0.0.1\"},{\"name\":\"launchy\",\"requirements\":\"\\u003e= 2.0.4\"},{\"name\":\"pry\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"rake\",\"requirements\":\"\\u003c 11.0\"},{\"name\":\"rspec\",\"requirements\":\"\\u003e=
+        2.2.0\"},{\"name\":\"selenium-webdriver\",\"requirements\":\"\\u003c 4.0,
+        \\u003e= 2.0\"},{\"name\":\"sinatra\",\"requirements\":\"\\u003e= 0.9.4\"},{\"name\":\"yard\",\"requirements\":\"\\u003e=
+        0.5.8\"}],\"runtime\":[{\"name\":\"addressable\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"mime-types\",\"requirements\":\"\\u003e= 1.16\"},{\"name\":\"nokogiri\",\"requirements\":\"\\u003e=
+        1.3.3\"},{\"name\":\"rack\",\"requirements\":\"\\u003e= 1.0.0\"},{\"name\":\"rack-test\",\"requirements\":\"\\u003e=
+        0.5.4\"},{\"name\":\"xpath\",\"requirements\":\"~\\u003e 2.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:26 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - df6ae2c8-5a7e-4714-8b08-5dbf4a7067f7
+      X-Runtime:
+      - '0.016995'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1250-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.192563,VS0,VE871
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"20ff41246858a805341c25e7890870b6\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"rails\",\"downloads\":81996853,\"version\":\"5.0.0.1\",\"version_downloads\":969628,\"platform\":\"ruby\",\"authors\":\"David
+        Heinemeier Hansson\",\"info\":\"Ruby on Rails is a full-stack web framework
+        optimized for programmer happiness and sustainable productivity. It encourages
+        beautiful code by favoring convention over configuration.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"b51cf641a376e16166587cfe41f46e37bd3a510c13a8b79f0682985c1603e4d8\",\"project_uri\":\"https://rubygems.org/gems/rails\",\"gem_uri\":\"https://rubygems.org/gems/rails-5.0.0.1.gem\",\"homepage_uri\":\"http://rubyonrails.org\",\"wiki_uri\":\"\",\"documentation_uri\":\"http://api.rubyonrails.org\",\"mailing_list_uri\":\"http://groups.google.com/group/rubyonrails-talk\",\"source_code_uri\":\"http://github.com/rails/rails\",\"bug_tracker_uri\":\"http://github.com/rails/rails/issues\",\"dependencies\":{\"development\":[],\"runtime\":[{\"name\":\"actioncable\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"actionmailer\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"actionpack\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"actionview\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"activejob\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"activemodel\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"activerecord\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"activesupport\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"bundler\",\"requirements\":\"\\u003c
+        2.0, \\u003e= 1.3.0\"},{\"name\":\"railties\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"sprockets-rails\",\"requirements\":\"\\u003e=
+        2.0.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:27 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/jquery-ui-rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9140e797-62b9-4c7d-8459-157948d7dd6a
+      X-Runtime:
+      - '0.013455'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1233-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.200370,VS0,VE961
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"fc009efe04ed6d08408106b4c69ecbc6\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"jquery-ui-rails\",\"downloads\":10716458,\"version\":\"6.0.1\",\"version_downloads\":17487,\"platform\":\"ruby\",\"authors\":\"Jo
+        Liss\",\"info\":\"jQuery UI's JavaScript, CSS, and image files packaged for
+        the Rails 3.1+ asset pipeline\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"22a01737808f65a621229a7e58785ebcb88a95ad2a08560f3503ddcfd7e27cd5\",\"project_uri\":\"https://rubygems.org/gems/jquery-ui-rails\",\"gem_uri\":\"https://rubygems.org/gems/jquery-ui-rails-6.0.1.gem\",\"homepage_uri\":\"https://github.com/joliss/jquery-ui-rails\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/jquery-ui-rails/6.0.1\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"json\",\"requirements\":\"~\\u003e
+        2.0\"}],\"runtime\":[{\"name\":\"railties\",\"requirements\":\"\\u003e= 3.2.16\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:27 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/sass-rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4d6528b4-7729-4887-9ce1-bc77bbb74697
+      X-Runtime:
+      - '0.015747'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1237-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.215611,VS0,VE1054
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"4562ede41e21659c126bc166028025f8\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"sass-rails\",\"downloads\":47627695,\"version\":\"5.0.6\",\"version_downloads\":2023515,\"platform\":\"ruby\",\"authors\":\"wycats,
+        chriseppstein\",\"info\":\"Sass adapter for the Rails asset pipeline.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"8bb5d9ed4e83c7e1ad2b518daf13a266b995c40a5ac74bc2673633b420105146\",\"project_uri\":\"https://rubygems.org/gems/sass-rails\",\"gem_uri\":\"https://rubygems.org/gems/sass-rails-5.0.6.gem\",\"homepage_uri\":\"https://github.com/rails/sass-rails\",\"wiki_uri\":\"\",\"documentation_uri\":\"https://github.com/rails/sass-rails/blob/master/README.markdown\",\"mailing_list_uri\":\"\",\"source_code_uri\":\"https://github.com/rails/sass-rails\",\"bug_tracker_uri\":\"https://github.com/rails/sass-rails/issues\",\"dependencies\":{\"development\":[{\"name\":\"sqlite3\",\"requirements\":\"\\u003e=
+        0\"}],\"runtime\":[{\"name\":\"railties\",\"requirements\":\"\\u003c 6, \\u003e=
+        4.0.0\"},{\"name\":\"sass\",\"requirements\":\"~\\u003e 3.1\"},{\"name\":\"sprockets\",\"requirements\":\"\\u003c
+        4.0, \\u003e= 2.8\"},{\"name\":\"sprockets-rails\",\"requirements\":\"\\u003c
+        4.0, \\u003e= 2.0\"},{\"name\":\"tilt\",\"requirements\":\"\\u003c 3, \\u003e=
+        1.1\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:27 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/activerecord-jdbcsqlite3-adapter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b7537675-278e-4c7f-8187-ec20b17121ce
+      X-Runtime:
+      - '0.014488'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1232-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.410853,VS0,VE951
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"b5c84c29674879e060ebd54c5e2f7420\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"activerecord-jdbcsqlite3-adapter\",\"downloads\":812827,\"version\":\"1.3.21\",\"version_downloads\":14579,\"platform\":\"ruby\",\"authors\":\"Nick
+        Sieger, Ola Bini, Karol Bucek and JRuby contributors\",\"info\":\"Sqlite3
+        JDBC adapter for JRuby on Rails.\",\"licenses\":[\"BSD\"],\"metadata\":{},\"sha\":\"cb204487f902d1335de1ef09eb0240fb6c5762a519c63e08334c795965f99844\",\"project_uri\":\"https://rubygems.org/gems/activerecord-jdbcsqlite3-adapter\",\"gem_uri\":\"https://rubygems.org/gems/activerecord-jdbcsqlite3-adapter-1.3.21.gem\",\"homepage_uri\":\"https://github.com/jruby/activerecord-jdbc-adapter\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/activerecord-jdbcsqlite3-adapter/1.3.21\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[],\"runtime\":[{\"name\":\"activerecord-jdbc-adapter\",\"requirements\":\"~\\u003e
+        1.3.21\"},{\"name\":\"jdbc-sqlite3\",\"requirements\":\"\\u003c 3.9, \\u003e=
+        3.7.2\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:27 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/poltergeist
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d3ab47b2-4c6a-42d5-84fb-b96cd1fc9064
+      X-Runtime:
+      - '0.017445'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1242-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737886.513074,VS0,VE952
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"a2c01bd1ffabd4fdeb9e110e717a1bdc\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"poltergeist\",\"downloads\":7436801,\"version\":\"1.12.0\",\"version_downloads\":19496,\"platform\":\"ruby\",\"authors\":\"Jon
+        Leighton\",\"info\":\"Poltergeist is a driver for Capybara that allows you
+        to run your tests on a headless WebKit browser, provided by PhantomJS.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"67f6b492b58648ab5783334848c2f5de98f23c81e8ded90b8eb4433002a96efc\",\"project_uri\":\"https://rubygems.org/gems/poltergeist\",\"gem_uri\":\"https://rubygems.org/gems/poltergeist-1.12.0.gem\",\"homepage_uri\":\"https://github.com/teampoltergeist/poltergeist\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/poltergeist/1.12.0\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"coffee-script\",\"requirements\":\"~\\u003e
+        2.2\"},{\"name\":\"coffee-script-source\",\"requirements\":\"~\\u003e 1.11.1\"},{\"name\":\"erubis\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"guard-coffeescript\",\"requirements\":\"~\\u003e 2.0.0\"},{\"name\":\"image_size\",\"requirements\":\"~\\u003e
+        1.0\"},{\"name\":\"launchy\",\"requirements\":\"~\\u003e 2.0\"},{\"name\":\"listen\",\"requirements\":\"~\\u003e
+        3.0.6\"},{\"name\":\"pdf-reader\",\"requirements\":\"\\u003e= 1.3.3, ~\\u003e
+        1.3\"},{\"name\":\"rake\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"rspec\",\"requirements\":\"~\\u003e
+        3.5.0\"},{\"name\":\"sinatra\",\"requirements\":\"~\\u003e 1.0\"}],\"runtime\":[{\"name\":\"capybara\",\"requirements\":\"~\\u003e
+        2.1\"},{\"name\":\"cliver\",\"requirements\":\"~\\u003e 0.3.1\"},{\"name\":\"websocket-driver\",\"requirements\":\"\\u003e=
+        0.2.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:27 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/jquery-ui-rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 965615cb-afbe-4688-b781-def3a8d28854
+      X-Runtime:
+      - '0.011067'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1239-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.692905,VS0,VE187
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"fc009efe04ed6d08408106b4c69ecbc6\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"jquery-ui-rails\",\"downloads\":10716458,\"version\":\"6.0.1\",\"version_downloads\":17487,\"platform\":\"ruby\",\"authors\":\"Jo
+        Liss\",\"info\":\"jQuery UI's JavaScript, CSS, and image files packaged for
+        the Rails 3.1+ asset pipeline\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"22a01737808f65a621229a7e58785ebcb88a95ad2a08560f3503ddcfd7e27cd5\",\"project_uri\":\"https://rubygems.org/gems/jquery-ui-rails\",\"gem_uri\":\"https://rubygems.org/gems/jquery-ui-rails-6.0.1.gem\",\"homepage_uri\":\"https://github.com/joliss/jquery-ui-rails\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/jquery-ui-rails/6.0.1\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"json\",\"requirements\":\"~\\u003e
+        2.0\"}],\"runtime\":[{\"name\":\"railties\",\"requirements\":\"\\u003e= 3.2.16\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:27 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/sass-rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fa69bbf6-257e-4618-96d8-363d33a6746e
+      X-Runtime:
+      - '0.014552'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:27 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1224-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.695966,VS0,VE292
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"4562ede41e21659c126bc166028025f8\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"sass-rails\",\"downloads\":47627695,\"version\":\"5.0.6\",\"version_downloads\":2023515,\"platform\":\"ruby\",\"authors\":\"wycats,
+        chriseppstein\",\"info\":\"Sass adapter for the Rails asset pipeline.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"8bb5d9ed4e83c7e1ad2b518daf13a266b995c40a5ac74bc2673633b420105146\",\"project_uri\":\"https://rubygems.org/gems/sass-rails\",\"gem_uri\":\"https://rubygems.org/gems/sass-rails-5.0.6.gem\",\"homepage_uri\":\"https://github.com/rails/sass-rails\",\"wiki_uri\":\"\",\"documentation_uri\":\"https://github.com/rails/sass-rails/blob/master/README.markdown\",\"mailing_list_uri\":\"\",\"source_code_uri\":\"https://github.com/rails/sass-rails\",\"bug_tracker_uri\":\"https://github.com/rails/sass-rails/issues\",\"dependencies\":{\"development\":[{\"name\":\"sqlite3\",\"requirements\":\"\\u003e=
+        0\"}],\"runtime\":[{\"name\":\"railties\",\"requirements\":\"\\u003c 6, \\u003e=
+        4.0.0\"},{\"name\":\"sass\",\"requirements\":\"~\\u003e 3.1\"},{\"name\":\"sprockets\",\"requirements\":\"\\u003c
+        4.0, \\u003e= 2.8\"},{\"name\":\"sprockets-rails\",\"requirements\":\"\\u003c
+        4.0, \\u003e= 2.0\"},{\"name\":\"tilt\",\"requirements\":\"\\u003c 3, \\u003e=
+        1.1\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 67df2ab5-0af5-44ca-985e-ac9902a644a2
+      X-Runtime:
+      - '0.013117'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1226-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.694486,VS0,VE386
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"20ff41246858a805341c25e7890870b6\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"rails\",\"downloads\":81996853,\"version\":\"5.0.0.1\",\"version_downloads\":969628,\"platform\":\"ruby\",\"authors\":\"David
+        Heinemeier Hansson\",\"info\":\"Ruby on Rails is a full-stack web framework
+        optimized for programmer happiness and sustainable productivity. It encourages
+        beautiful code by favoring convention over configuration.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"b51cf641a376e16166587cfe41f46e37bd3a510c13a8b79f0682985c1603e4d8\",\"project_uri\":\"https://rubygems.org/gems/rails\",\"gem_uri\":\"https://rubygems.org/gems/rails-5.0.0.1.gem\",\"homepage_uri\":\"http://rubyonrails.org\",\"wiki_uri\":\"\",\"documentation_uri\":\"http://api.rubyonrails.org\",\"mailing_list_uri\":\"http://groups.google.com/group/rubyonrails-talk\",\"source_code_uri\":\"http://github.com/rails/rails\",\"bug_tracker_uri\":\"http://github.com/rails/rails/issues\",\"dependencies\":{\"development\":[],\"runtime\":[{\"name\":\"actioncable\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"actionmailer\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"actionpack\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"actionview\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"activejob\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"activemodel\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"activerecord\",\"requirements\":\"=
+        5.0.0.1\"},{\"name\":\"activesupport\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"bundler\",\"requirements\":\"\\u003c
+        2.0, \\u003e= 1.3.0\"},{\"name\":\"railties\",\"requirements\":\"= 5.0.0.1\"},{\"name\":\"sprockets-rails\",\"requirements\":\"\\u003e=
+        2.0.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/ransack
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 063ed422-b7b2-41c6-9fb8-ff02c98998a7
+      X-Runtime:
+      - '0.012400'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1248-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.698212,VS0,VE483
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"680c099e9917b7484736c4c6164828fb\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"ransack\",\"downloads\":4312517,\"version\":\"1.8.2\",\"version_downloads\":261568,\"platform\":\"ruby\",\"authors\":\"Ernie
+        Miller, Ryan Bigg, Jon Atack\",\"info\":\"Ransack is the successor to the
+        MetaSearch gem. It improves and expands upon MetaSearch's functionality, but
+        does not have a 100%-compatible API.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"4c766e3cda7f4c982ec48032bc9db744edba0e1a744e365946124afe3c1fca33\",\"project_uri\":\"https://rubygems.org/gems/ransack\",\"gem_uri\":\"https://rubygems.org/gems/ransack-1.8.2.gem\",\"homepage_uri\":\"https://github.com/activerecord-hackery/ransack\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/ransack/1.8.2\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"faker\",\"requirements\":\"~\\u003e
+        0.9.5\"},{\"name\":\"machinist\",\"requirements\":\"~\\u003e 1.0.6\"},{\"name\":\"mysql2\",\"requirements\":\"=
+        0.3.20\"},{\"name\":\"pg\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"pry\",\"requirements\":\"=
+        0.10\"},{\"name\":\"rspec\",\"requirements\":\"~\\u003e 3\"},{\"name\":\"sqlite3\",\"requirements\":\"~\\u003e
+        1.3.3\"}],\"runtime\":[{\"name\":\"actionpack\",\"requirements\":\"\\u003e=
+        3.0\"},{\"name\":\"activerecord\",\"requirements\":\"\\u003e= 3.0\"},{\"name\":\"activesupport\",\"requirements\":\"\\u003e=
+        3.0\"},{\"name\":\"i18n\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"polyamorous\",\"requirements\":\"~\\u003e
+        1.3\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/nokogiri
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e5b9c9f8-a521-47a2-b502-7af0fc11086d
+      X-Runtime:
+      - '0.012618'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1251-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.704579,VS0,VE573
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"339a3eee4df508aa4590cedfda2f5bfe\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJuYW1lIjoibm9rb2dpcmkiLCJkb3dubG9hZHMiOjk0NTAwMTkyLCJ2ZXJz
+        aW9uIjoiMS42LjguMSIsInZlcnNpb25fZG93bmxvYWRzIjoyNzYxMjYxLCJw
+        bGF0Zm9ybSI6InJ1YnkiLCJhdXRob3JzIjoiQWFyb24gUGF0dGVyc29uLCBN
+        aWtlIERhbGVzc2lvLCBZb2tvIEhhcmFkYSwgVGltIEVsbGlvdHQsIEFraW5v
+        cmkgTVVTSEEiLCJpbmZvIjoiTm9rb2dpcmkgKOmLuCkgaXMgYW4gSFRNTCwg
+        WE1MLCBTQVgsIGFuZCBSZWFkZXIgcGFyc2VyLiAgQW1vbmdcbk5va29naXJp
+        J3MgbWFueSBmZWF0dXJlcyBpcyB0aGUgYWJpbGl0eSB0byBzZWFyY2ggZG9j
+        dW1lbnRzIHZpYSBYUGF0aFxub3IgQ1NTMyBzZWxlY3RvcnMuIiwibGljZW5z
+        ZXMiOlsiTUlUIl0sIm1ldGFkYXRhIjp7fSwic2hhIjoiOTI4MTRhN2ZmNjcy
+        ZTQyYjYwZmQ1YzAyZDc1YjYyYWI4ZmQyZGYzYWZiYWMyNzljYzhkYWRhYzNj
+        MTZiYmQxMCIsInByb2plY3RfdXJpIjoiaHR0cHM6Ly9ydWJ5Z2Vtcy5vcmcv
+        Z2Vtcy9ub2tvZ2lyaSIsImdlbV91cmkiOiJodHRwczovL3J1YnlnZW1zLm9y
+        Zy9nZW1zL25va29naXJpLTEuNi44LjEuZ2VtIiwiaG9tZXBhZ2VfdXJpIjoi
+        aHR0cDovL25va29naXJpLm9yZyIsIndpa2lfdXJpIjoiIiwiZG9jdW1lbnRh
+        dGlvbl91cmkiOiJodHRwOi8vbm9rb2dpcmkub3JnIiwibWFpbGluZ19saXN0
+        X3VyaSI6Imh0dHA6Ly9ncm91cHMuZ29vZ2xlLmNvbS9ncm91cC9ub2tvZ2ly
+        aS10YWxrIiwic291cmNlX2NvZGVfdXJpIjoiaHR0cHM6Ly9naXRodWIuY29t
+        L3NwYXJrbGVtb3Rpb24vbm9rb2dpcmkiLCJidWdfdHJhY2tlcl91cmkiOiJo
+        dHRwczovL2dpdGh1Yi5jb20vc3BhcmtsZW1vdGlvbi9ub2tvZ2lyaS9pc3N1
+        ZXMiLCJkZXBlbmRlbmNpZXMiOnsiZGV2ZWxvcG1lbnQiOlt7Im5hbWUiOiJo
+        b2UiLCJyZXF1aXJlbWVudHMiOiJ+XHUwMDNlIDMuMTUifSx7Im5hbWUiOiJo
+        b2UtYnVuZGxlciIsInJlcXVpcmVtZW50cyI6In5cdTAwM2UgMS4yLjAifSx7
+        Im5hbWUiOiJob2UtZGVidWdnaW5nIiwicmVxdWlyZW1lbnRzIjoiflx1MDAz
+        ZSAxLjIuMSJ9LHsibmFtZSI6ImhvZS1nZW1zcGVjIiwicmVxdWlyZW1lbnRz
+        Ijoiflx1MDAzZSAxLjAuMCJ9LHsibmFtZSI6ImhvZS1naXQiLCJyZXF1aXJl
+        bWVudHMiOiJ+XHUwMDNlIDEuNi4wIn0seyJuYW1lIjoibWluaXRlc3QiLCJy
+        ZXF1aXJlbWVudHMiOiJ+XHUwMDNlIDUuOC40In0seyJuYW1lIjoicmFjYyIs
+        InJlcXVpcmVtZW50cyI6In5cdTAwM2UgMS40LjE0In0seyJuYW1lIjoicmFr
+        ZSIsInJlcXVpcmVtZW50cyI6In5cdTAwM2UgMTAuNS4wIn0seyJuYW1lIjoi
+        cmFrZS1jb21waWxlciIsInJlcXVpcmVtZW50cyI6In5cdTAwM2UgMC45LjIi
+        fSx7Im5hbWUiOiJyYWtlLWNvbXBpbGVyLWRvY2siLCJyZXF1aXJlbWVudHMi
+        OiJ+XHUwMDNlIDAuNS4xIn0seyJuYW1lIjoicmRvYyIsInJlcXVpcmVtZW50
+        cyI6In5cdTAwM2UgNC4wIn0seyJuYW1lIjoicmV4aWNhbCIsInJlcXVpcmVt
+        ZW50cyI6In5cdTAwM2UgMS4wLjUifV0sInJ1bnRpbWUiOlt7Im5hbWUiOiJt
+        aW5pX3BvcnRpbGUyIiwicmVxdWlyZW1lbnRzIjoiflx1MDAzZSAyLjEuMCJ9
+        XX19
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/devise
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 23294237-e237-49b9-a924-36b7c52aa144
+      X-Runtime:
+      - '0.016129'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1231-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.701897,VS0,VE688
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"ec622f9828f787f6aba270ad419485e8\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJuYW1lIjoiZGV2aXNlIiwiZG93bmxvYWRzIjoyMDc4NjAzNSwidmVyc2lv
+        biI6IjQuMi4wIiwidmVyc2lvbl9kb3dubG9hZHMiOjEwMDczNTksInBsYXRm
+        b3JtIjoicnVieSIsImF1dGhvcnMiOiJKb3PDqSBWYWxpbSwgQ2FybG9zIEFu
+        dMO0bmlvIiwiaW5mbyI6IkZsZXhpYmxlIGF1dGhlbnRpY2F0aW9uIHNvbHV0
+        aW9uIGZvciBSYWlscyB3aXRoIFdhcmRlbiIsImxpY2Vuc2VzIjpbIk1JVCJd
+        LCJtZXRhZGF0YSI6e30sInNoYSI6ImUwYjZhMzgyODM2OGUyYjk3OTYzNjEz
+        OTVlOTBjNDhiZjkyZmY4NTk1MDJlYzlkMWE4NmMzZTgzYzJlMGI4MTAiLCJw
+        cm9qZWN0X3VyaSI6Imh0dHBzOi8vcnVieWdlbXMub3JnL2dlbXMvZGV2aXNl
+        IiwiZ2VtX3VyaSI6Imh0dHBzOi8vcnVieWdlbXMub3JnL2dlbXMvZGV2aXNl
+        LTQuMi4wLmdlbSIsImhvbWVwYWdlX3VyaSI6Imh0dHBzOi8vZ2l0aHViLmNv
+        bS9wbGF0YWZvcm1hdGVjL2RldmlzZSIsIndpa2lfdXJpIjoiIiwiZG9jdW1l
+        bnRhdGlvbl91cmkiOiJodHRwOi8vZ2l0aHViLmNvbS9wbGF0YWZvcm1hdGVj
+        L2RldmlzZSIsIm1haWxpbmdfbGlzdF91cmkiOiJodHRwOi8vZ3JvdXBzLmdv
+        b2dsZS5jb20vZ3JvdXAvcGxhdGFmb3JtYXRlYy1kZXZpc2UiLCJzb3VyY2Vf
+        Y29kZV91cmkiOiJodHRwOi8vZ2l0aHViLmNvbS9wbGF0YWZvcm1hdGVjL2Rl
+        dmlzZSIsImJ1Z190cmFja2VyX3VyaSI6IiIsImRlcGVuZGVuY2llcyI6eyJk
+        ZXZlbG9wbWVudCI6W10sInJ1bnRpbWUiOlt7Im5hbWUiOiJiY3J5cHQiLCJy
+        ZXF1aXJlbWVudHMiOiJ+XHUwMDNlIDMuMCJ9LHsibmFtZSI6Im9ybV9hZGFw
+        dGVyIiwicmVxdWlyZW1lbnRzIjoiflx1MDAzZSAwLjEifSx7Im5hbWUiOiJy
+        YWlsdGllcyIsInJlcXVpcmVtZW50cyI6Ilx1MDAzYyA1LjEsIFx1MDAzZT0g
+        NC4xLjAifSx7Im5hbWUiOiJyZXNwb25kZXJzIiwicmVxdWlyZW1lbnRzIjoi
+        XHUwMDNlPSAwIn0seyJuYW1lIjoid2FyZGVuIiwicmVxdWlyZW1lbnRzIjoi
+        flx1MDAzZSAxLjIuMyJ9XX19
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/better_errors
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ab5f79f3-fe87-4f9c-8e27-f59e021d2a98
+      X-Runtime:
+      - '0.014550'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1237-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.708185,VS0,VE775
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"8213bbff80087119acc667acc37ad7da\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"better_errors\",\"downloads\":8037649,\"version\":\"2.1.1\",\"version_downloads\":3120725,\"platform\":\"ruby\",\"authors\":\"Charlie
+        Somerville\",\"info\":\"Provides a better error page for Rails and other Rack
+        apps. Includes source code inspection, a live REPL and local/instance variable
+        inspection for all stack frames.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"acb3d6bcdadb511dc9360b652809a7cbd889a864c0cfd9c0dd5846e803999a85\",\"project_uri\":\"https://rubygems.org/gems/better_errors\",\"gem_uri\":\"https://rubygems.org/gems/better_errors-2.1.1.gem\",\"homepage_uri\":\"https://github.com/charliesome/better_errors\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/better_errors/2.1.1\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[],\"runtime\":[{\"name\":\"coderay\",\"requirements\":\"\\u003e=
+        1.0.0\"},{\"name\":\"erubis\",\"requirements\":\"\\u003e= 2.6.6\"},{\"name\":\"rack\",\"requirements\":\"\\u003e=
+        0.9.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/rake
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cd7a5f27-9011-4794-b4bb-c1eb3e8a51b3
+      X-Runtime:
+      - '0.011024'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1226-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.706848,VS0,VE871
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"cc3217a6a0aa9983e66b3c3f7ed40abf\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"rake\",\"downloads\":130101323,\"version\":\"12.0.0\",\"version_downloads\":324046,\"platform\":\"ruby\",\"authors\":\"Hiroshi
+        SHIBATA, Eric Hodel, Jim Weirich\",\"info\":\"Rake is a Make-like program
+        implemented in Ruby. Tasks and dependencies are\\nspecified in standard Ruby
+        syntax.\\nRake has the following features:\\n  * Rakefiles (rake's version
+        of Makefiles) are completely defined in standard Ruby syntax.\\n    No XML
+        files to edit. No quirky Makefile syntax to worry about (is that a tab or
+        a space?)\\n  * Users can specify tasks with prerequisites.\\n  * Rake supports
+        rule patterns to synthesize implicit tasks.\\n  * Flexible FileLists that
+        act like arrays but know about manipulating file names and paths.\\n  * Supports
+        parallel execution of tasks.\\n\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"f6b43059e2923ddd30128fbbf4eb2e610c020b888ad97b57d7d94abc12734806\",\"project_uri\":\"https://rubygems.org/gems/rake\",\"gem_uri\":\"https://rubygems.org/gems/rake-12.0.0.gem\",\"homepage_uri\":\"https://github.com/ruby/rake\",\"wiki_uri\":\"\",\"documentation_uri\":\"http://docs.seattlerb.org/rake\",\"mailing_list_uri\":\"\",\"source_code_uri\":\"https://github.com/ruby/rake\",\"bug_tracker_uri\":\"https://github.com/ruby/rake/issues\",\"dependencies\":{\"development\":[{\"name\":\"bundler\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"minitest\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"rdoc\",\"requirements\":\"\\u003e=
+        0\"}],\"runtime\":[]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/binding_of_caller
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cba1ac09-820e-4acc-8542-1c259f6a7e63
+      X-Runtime:
+      - '0.010377'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1242-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.713351,VS0,VE963
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"cb008d662750c2b874df49a4e830db84\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"binding_of_caller\",\"downloads\":12252390,\"version\":\"0.7.2\",\"version_downloads\":10948022,\"platform\":\"ruby\",\"authors\":\"John
+        Mair (banisterfiend)\",\"info\":\"Retrieve the binding of a method's caller.
+        Can also retrieve bindings even further up the stack.\",\"licenses\":[],\"metadata\":{},\"sha\":\"d327682ce1d8e8cc46e282a46052946af0de16bef734014c63df0aac66334f96\",\"project_uri\":\"https://rubygems.org/gems/binding_of_caller\",\"gem_uri\":\"https://rubygems.org/gems/binding_of_caller-0.7.2.gem\",\"homepage_uri\":\"http://github.com/banister/binding_of_caller\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/binding_of_caller/0.7.2\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"bacon\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"rake\",\"requirements\":\"\\u003e= 0\"}],\"runtime\":[{\"name\":\"debug_inspector\",\"requirements\":\"\\u003e=
+        0.0.1\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/capybara
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f930ae39-178f-49bf-a063-b169b70db513
+      X-Runtime:
+      - '0.012930'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1227-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.713318,VS0,VE1068
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"56d582c81f73e4bd9ed3ab93deeec238\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"capybara\",\"downloads\":22185347,\"version\":\"2.11.0\",\"version_downloads\":42113,\"platform\":\"ruby\",\"authors\":\"Thomas
+        Walpole, Jonas Nicklas\",\"info\":\"Capybara is an integration testing tool
+        for rack based web applications. It simulates how a user would interact with
+        a website\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"fb097436b4f3a0610026c0757ef1531edad5f0f0836f49d3c4f53541058f50c5\",\"project_uri\":\"https://rubygems.org/gems/capybara\",\"gem_uri\":\"https://rubygems.org/gems/capybara-2.11.0.gem\",\"homepage_uri\":\"https://github.com/teamcapybara/capybara\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/capybara/2.11.0\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"cucumber\",\"requirements\":\"\\u003e=
+        0.10.5\"},{\"name\":\"erubis\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"fuubar\",\"requirements\":\"\\u003e=
+        0.0.1\"},{\"name\":\"launchy\",\"requirements\":\"\\u003e= 2.0.4\"},{\"name\":\"pry\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"rake\",\"requirements\":\"\\u003c 11.0\"},{\"name\":\"rspec\",\"requirements\":\"\\u003e=
+        2.2.0\"},{\"name\":\"selenium-webdriver\",\"requirements\":\"\\u003c 4.0,
+        \\u003e= 2.0\"},{\"name\":\"sinatra\",\"requirements\":\"\\u003e= 0.9.4\"},{\"name\":\"yard\",\"requirements\":\"\\u003e=
+        0.5.8\"}],\"runtime\":[{\"name\":\"addressable\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"mime-types\",\"requirements\":\"\\u003e= 1.16\"},{\"name\":\"nokogiri\",\"requirements\":\"\\u003e=
+        1.3.3\"},{\"name\":\"rack\",\"requirements\":\"\\u003e= 1.0.0\"},{\"name\":\"rack-test\",\"requirements\":\"\\u003e=
+        0.5.4\"},{\"name\":\"xpath\",\"requirements\":\"~\\u003e 2.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/activerecord-jdbcsqlite3-adapter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 63e92311-3356-4fe2-ab57-18c1a7c6f641
+      X-Runtime:
+      - '0.011161'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1239-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737887.930803,VS0,VE948
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"b5c84c29674879e060ebd54c5e2f7420\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"activerecord-jdbcsqlite3-adapter\",\"downloads\":812827,\"version\":\"1.3.21\",\"version_downloads\":14579,\"platform\":\"ruby\",\"authors\":\"Nick
+        Sieger, Ola Bini, Karol Bucek and JRuby contributors\",\"info\":\"Sqlite3
+        JDBC adapter for JRuby on Rails.\",\"licenses\":[\"BSD\"],\"metadata\":{},\"sha\":\"cb204487f902d1335de1ef09eb0240fb6c5762a519c63e08334c795965f99844\",\"project_uri\":\"https://rubygems.org/gems/activerecord-jdbcsqlite3-adapter\",\"gem_uri\":\"https://rubygems.org/gems/activerecord-jdbcsqlite3-adapter-1.3.21.gem\",\"homepage_uri\":\"https://github.com/jruby/activerecord-jdbc-adapter\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/activerecord-jdbcsqlite3-adapter/1.3.21\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[],\"runtime\":[{\"name\":\"activerecord-jdbc-adapter\",\"requirements\":\"~\\u003e
+        1.3.21\"},{\"name\":\"jdbc-sqlite3\",\"requirements\":\"\\u003c 3.9, \\u003e=
+        3.7.2\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+- request:
+    method: get
+    uri: https://rubygems.org/api/v1/gems/poltergeist
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-XSS-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e9b0e0f0-b563-4768-899f-d7228d3594c0
+      X-Runtime:
+      - '0.011940'
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      X-Backend:
+      - F_Rails 54.186.104.15:443
+      Transfer-Encoding:
+      - chunked
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 14 Dec 2016 17:51:28 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-fra1224-FRA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481737888.038240,VS0,VE942
+      Vary:
+      - Accept-Encoding,Fastly-SSL
+      ETag:
+      - "\"a2c01bd1ffabd4fdeb9e110e717a1bdc\""
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"poltergeist\",\"downloads\":7436801,\"version\":\"1.12.0\",\"version_downloads\":19496,\"platform\":\"ruby\",\"authors\":\"Jon
+        Leighton\",\"info\":\"Poltergeist is a driver for Capybara that allows you
+        to run your tests on a headless WebKit browser, provided by PhantomJS.\",\"licenses\":[\"MIT\"],\"metadata\":{},\"sha\":\"67f6b492b58648ab5783334848c2f5de98f23c81e8ded90b8eb4433002a96efc\",\"project_uri\":\"https://rubygems.org/gems/poltergeist\",\"gem_uri\":\"https://rubygems.org/gems/poltergeist-1.12.0.gem\",\"homepage_uri\":\"https://github.com/teampoltergeist/poltergeist\",\"wiki_uri\":null,\"documentation_uri\":\"http://www.rubydoc.info/gems/poltergeist/1.12.0\",\"mailing_list_uri\":null,\"source_code_uri\":null,\"bug_tracker_uri\":null,\"dependencies\":{\"development\":[{\"name\":\"coffee-script\",\"requirements\":\"~\\u003e
+        2.2\"},{\"name\":\"coffee-script-source\",\"requirements\":\"~\\u003e 1.11.1\"},{\"name\":\"erubis\",\"requirements\":\"\\u003e=
+        0\"},{\"name\":\"guard-coffeescript\",\"requirements\":\"~\\u003e 2.0.0\"},{\"name\":\"image_size\",\"requirements\":\"~\\u003e
+        1.0\"},{\"name\":\"launchy\",\"requirements\":\"~\\u003e 2.0\"},{\"name\":\"listen\",\"requirements\":\"~\\u003e
+        3.0.6\"},{\"name\":\"pdf-reader\",\"requirements\":\"\\u003e= 1.3.3, ~\\u003e
+        1.3\"},{\"name\":\"rake\",\"requirements\":\"\\u003e= 0\"},{\"name\":\"rspec\",\"requirements\":\"~\\u003e
+        3.5.0\"},{\"name\":\"sinatra\",\"requirements\":\"~\\u003e 1.0\"}],\"runtime\":[{\"name\":\"capybara\",\"requirements\":\"~\\u003e
+        2.1\"},{\"name\":\"cliver\",\"requirements\":\"~\\u003e 0.3.1\"},{\"name\":\"websocket-driver\",\"requirements\":\"\\u003e=
+        0.2.0\"}]}}"
+    http_version: 
+  recorded_at: Wed, 14 Dec 2016 17:51:28 GMT
+recorded_with: VCR 3.0.3

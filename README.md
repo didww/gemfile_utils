@@ -29,6 +29,13 @@ Options:
 Comment Gemfile with gems all dependency licences fetched from rubygems
 ```
 
+## Results
+
+[Initial Gemfile](https://github.com/Fivell/gemfile_utils/blob/master/spec/fixtures/initial/Gemfile)
+
+[Annotated Gemfile](https://github.com/Fivell/gemfile_utils/blob/master/spec/fixtures/result/Gemfile)
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
