@@ -1,0 +1,47 @@
+# Licenses: ["BSD", "MIT", "Unknown"]
+source 'https://rubygems.org'
+
+# (MIT) Ruby on Rails is a full-stack web framework optimized for programmer happiness and sustainable productivity. It encourages beautiful code by favoring convention over configuration.
+gem 'rails', '4.2'
+
+# (MIT) jQuery UI's JavaScript, CSS, and image files packaged for the Rails 3.1+ asset pipeline
+gem 'jquery-ui-rails'
+
+# (MIT) Sass adapter for the Rails asset pipeline.
+gem 'sass-rails', github: 'rails/sass-rails'
+# (MIT) Ransack is the successor to the MetaSearch gem. It improves and expands upon MetaSearch's functionality, but does not have a 100%-compatible API.
+gem 'ransack',  github: 'activerecord-hackery/ransack'
+
+# (MIT) Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser.  Among
+# Nokogiri's many features is the ability to search documents via XPath
+# or CSS3 selectors.
+gem 'nokogiri'
+# (MIT) Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 3.5'
+
+# (MIT) Rake is a Make-like program implemented in Ruby. Tasks and dependencies are
+# specified in standard Ruby syntax.
+# Rake has the following features:
+#   * Rakefiles (rake's version of Makefiles) are completely defined in standard Ruby syntax.
+#     No XML files to edit. No quirky Makefile syntax to worry about (is that a tab or a space?)
+#   * Users can specify tasks with prerequisites.
+#   * Rake supports rule patterns to synthesize implicit tasks.
+#   * Flexible FileLists that act like arrays but know about manipulating file names and paths.
+#   * Supports parallel execution of tasks.
+gem 'rake', require: false
+group :development do
+  # Debugging
+  # (MIT) Provides a better error page for Rails and other Rack apps. Includes source code inspection, a live REPL and local/instance variable inspection for all stack frames.
+  gem 'better_errors'                       # Web UI to debug exceptions. Go to /__better_errors to access the latest one
+  # (Unknown) Retrieve the binding of a method's caller. Can also retrieve bindings even further up the stack.
+  gem 'binding_of_caller', platforms: :mri  # Retrieve the binding of a method's caller in MRI Ruby >= 1.9.2
+end
+
+group :test do
+  # (MIT) Capybara is an integration testing tool for rack based web applications. It simulates how a user would interact with a website
+  gem 'capybara'
+  # (BSD) Sqlite3 JDBC adapter for JRuby on Rails.
+  gem 'activerecord-jdbcsqlite3-adapter', platforms: :jruby
+  # (MIT) Poltergeist is a driver for Capybara that allows you to run your tests on a headless WebKit browser, provided by PhantomJS.
+  gem 'poltergeist'
+end

@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative '../lib/gemfile_utils'
+puts ARGV
+GemfileUtils::Cli::Base.start(ARGV)
