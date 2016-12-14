@@ -1,0 +1,24 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.2'
+
+gem 'jquery-ui-rails'
+
+gem 'sass-rails', github: 'rails/sass-rails'
+gem 'ransack',  github: 'activerecord-hackery/ransack'
+
+gem 'nokogiri'
+gem 'devise', '~> 3.5'
+
+gem 'rake', require: false
+group :development do
+  # Debugging
+  gem 'better_errors'                       # Web UI to debug exceptions. Go to /__better_errors to access the latest one
+  gem 'binding_of_caller', platforms: :mri  # Retrieve the binding of a method's caller in MRI Ruby >= 1.9.2
+end
+
+group :test do
+  gem 'capybara'
+  gem 'activerecord-jdbcsqlite3-adapter', platforms: :jruby
+  gem 'poltergeist'
+end
