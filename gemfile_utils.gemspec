@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{gemfile_utils gem}
   spec.description   = %q{gemfile_utils provides command line interface to modify Gemfile with annotations and comments}
-  spec.homepage      = "https://github.com/Fivell"
+  spec.homepage      = "https://github.com/Fivell/gemfile_utils"
   spec.license       = "MIT"
   
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
