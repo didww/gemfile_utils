@@ -16,7 +16,8 @@ Options:
                          # Default: Gemfile
   [--licenses=LICENSES]
                          # Default: false
-
+  [--homepage=HOMEPAGE]
+                         # Default: false
 Comment Gemfile with gems descriptions fetched from rubygems
 ```
 
