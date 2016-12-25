@@ -8,6 +8,7 @@ module GemfileUtils
           desc 'comments', 'Comment Gemfile with gems descriptions fetched from rubygems'
           method_option :gemfile, default: 'Gemfile'
           method_option :licenses, default: 'false'
+          method_option :homepage, default: 'false'
 
           def comments
             gemfile_dependencies.each do |dependency|
@@ -18,13 +19,23 @@ module GemfileUtils
           protected
 
           def add_comment(gem_name, gem_data, indention = '')
+            before_regexp =  Regexp.new("[\s]*gem[\s]+['\"]#{gem_name}['\"]")
             info = gem_data['info']
-            if options[:licenses]
-              licenses = gem_data['licenses']
-              licenses = Base::UNKNOWN_LICENCES if licenses.nil? || licenses.empty?
-              info =  "(#{licenses * ', '}) #{info}"
-            end
-            inject_into_file options[:gemfile],  comment_block(info, indention), before: Regexp.new("[\s]*gem[\s]+['\"]#{gem_name}['\"]") if info
+            info = add_licences(info, gem_data) if options[:licenses]
+            info = add_homepage(info, gem_data) if options[:homepage]
+            inject_into_file(options[:gemfile], comment_block(info, indention), before: before_regexp) if info
+          end
+
+          def add_licences(info, gem_data)
+            licenses = gem_data['licenses']
+            licenses = Base::UNKNOWN_LICENCES if licenses.nil? || licenses.empty?
+            "(#{licenses * ', '}) #{info}"
+          end
+
+          def add_homepage(info, gem_data)
+            homepage = gem_data['homepage_uri']
+            return info if  homepage.nil? || homepage.empty?
+            "#{info} (#{homepage})"
           end
 
         end

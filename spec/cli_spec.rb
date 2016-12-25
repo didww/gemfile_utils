@@ -25,7 +25,7 @@ describe GemfileUtils::Cli::Base do
 
   let(:comments!){
     ["some_name", "--test-framework", "rspec"]
-    described_class.start(['comments', "--gemfile", gemfile_fixture, "--licenses", 'true' ])
+    described_class.start(['comments', "--gemfile", gemfile_fixture, "--licenses", 'true',  "--homepage", 'true' ])
   }
 
   let(:licenses!){
